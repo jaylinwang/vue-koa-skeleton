@@ -1,0 +1,69 @@
+{
+  "name": "vue-koa-skeleton",
+  "version": "0.0.1",
+  "description": "vue and koa use in project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --config build/webpack.conf.dev.js & NODE_ENV=development nodemon app/index.js | bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylinwang/vue-koa-skeleton.git"
+  },
+  "keywords": [
+    "vue-koa-skeleton"
+  ],
+  "author": "JaylinWang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaylinwang/vue-koa-skeleton/issues"
+  },
+  "homepage": "https://github.com/jaylinwang/vue-koa-skeleton#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-harddisk-plugin": "^0.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "nodemon": "^1.12.0",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "^0.0.1",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-merge": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bunyan": "^1.8.12",
+    "chalk": "^2.1.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.0",
+    "koa-static": "^4.0.1",
+    "lodash": "^4.17.4",
+    "nunjucks": "^3.0.1",
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0"
+  }
+}
